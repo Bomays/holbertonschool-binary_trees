@@ -3,7 +3,7 @@
 /**
  * binary_tree_preorder - Entry point
  * @tree: pointer to the root node
- * @func: pointer to a function to call
+ * @func: pointer to a function
  * Return: void
  */
 
