@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_is_leaf - Entry point
- * @node: pointer to the node to check
+ * @node: pointer to the node
  * Return: 1
  */
 
