@@ -3,17 +3,20 @@
 /**
  * binary_tree_is_root - Entry point
  * @node: pointer to the node
- * Return: 1
+ * Return: 1 or 0
  */
 
 int binary_tree_is_root(const binary_tree_t *node)
 {
 	if (node == NULL)
+	{
 		return (0);
+	}
 
 	if (node->parent == NULL)
+	{
 		return (1);
-	else
-		return (0);
-	binary_tree_is_root(node->parent);
+	}
+	
+	return (0);
 }
